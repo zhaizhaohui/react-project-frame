@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# React-Project-Frame
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Why am I doing this project?
 
-## Available Scripts
+After downloading the React framework, there are still many basic configurations that need to be done before you can use it, such as setting up directory structure, importing commonly used dependencies, and configuring files. 
 
-In the project directory, you can run:
+I created this project and simplified the original framework files while also completing the basic configuration work. I hope to provide everyone with a ready-to-use framework that saves time on basic configuration.
 
-### `npm start`
+ If you need to make additional configurations, you can adjust them yourself.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## The directory structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> src
+>
+> ---apis
+>
+> ---assets
+>
+> ---components
+>
+> ---pages
+>
+> ---router
+>
+> ---store
+>
+> ---utils
 
-### `npm run build`
+**apis**: This folder contains API services or external integrations.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**assets**: This folder holds static assets such as images, fonts, or stylesheets
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**components**: This folder stores reusable UI components.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**pages**: This folder contains the different pages or screens of the application
 
-### `npm run eject`
+**router**: This folder  define and manage the routing functionality of the application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**store**: This folder  organize files related to state management using libraries such as Redux or MobX.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**utils**: This folder includes utility functions or helper classes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Installed dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+react-router-dom
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+react-redux
 
-### Code Splitting
+@reduxjs/toolkit
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+craco
 
-### Analyzing the Bundle Size
+axios
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Other dependencies you might need
 
-### Advanced Configuration
+sass
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+[Ant Design](https://ant.design/index-cn/)
 
-### Deployment
+[React-Bootstrap](https://react-bootstrap.github.io/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[React-Markdown](https://remarkjs.github.io/react-markdown/)
